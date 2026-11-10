@@ -127125,7 +127125,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1646182344243006999, guid: 6b32a098c1805994cba4a234b7b1203d, type: 3}
       propertyPath: field of view
-      value: 10
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 6207153010677559441, guid: 6b32a098c1805994cba4a234b7b1203d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -235081,7 +235081,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6897287442245012240, guid: a2b6479a356de64409942ca0a7a70277, type: 3}
       propertyPath: Lens.FieldOfView
-      value: 10
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 6897287442245012240, guid: a2b6479a356de64409942ca0a7a70277, type: 3}
       propertyPath: Target.TrackingTarget
@@ -597289,7 +597289,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ActiveWeapon
   weaponSO: {fileID: 11400000, guid: 71b632d5c021e5b48bb11c25dab6e19c, type: 2}
-  camera: {fileID: 116567702}
+  playerFollowCamera: {fileID: 116567702}
   zoomVignette: {fileID: 259977053}
 --- !u!33 &8367103833204470551
 MeshFilter:
