@@ -12,6 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a7522b2dfd6ae94fa72c378b94d8946, type: 3}
   m_Name: MachineGun
   m_EditorClassIdentifier: Assembly-CSharp::WeaponSO
-  damage: 1
-  fireRate: 0.2
-  HitParticles: {fileID: 0}
+  WeaponPrefab: {fileID: 3232756183964402933, guid: af701acaac49f90478e661b2a5cdd855, type: 3}
+  Damage: 1
+  FireRate: 0.2
+  HitParticles: {fileID: 5095575767765099792, guid: 29a970c15ce122a41a158ac817d41c0a, type: 3}
+  IsAutomatic: 1
+  CanZoom: 0
+  ZoomFOV: 10
