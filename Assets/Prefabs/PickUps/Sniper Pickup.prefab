@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1278756794834995195}
   - component: {fileID: 2742926449983801438}
   - component: {fileID: 140775263437733012}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sniper_01_Blue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99,7 +99,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8020916867157773444}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 2256131336054414862}
   - component: {fileID: 603849823403251281}
   - component: {fileID: 8208957132190135164}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sniper Pickup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -191,4 +191,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60a615187528c1142a2bd011e2d9e5fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PickupWeapon
+  rotationSpeed: 45
   weaponSO: {fileID: 11400000, guid: 28f9f4639555b434caeaca97ae6ef49d, type: 2}

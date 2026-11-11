@@ -52,6 +52,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pistol_02_Blue_Team
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9d91fae2703d43046a1c37804ae23dad, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -74,10 +78,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pistol Pickup
       objectReference: {fileID: 0}
+    - target: {fileID: 123933179730819475, guid: 11659bbe7cca8184984705fa6e1731c1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 453769807207266984, guid: 11659bbe7cca8184984705fa6e1731c1, type: 3}
       propertyPath: weaponSO
       value: 
       objectReference: {fileID: 11400000, guid: 71b632d5c021e5b48bb11c25dab6e19c, type: 2}
+    - target: {fileID: 4455760509923449947, guid: 11659bbe7cca8184984705fa6e1731c1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7561382454257145818, guid: 11659bbe7cca8184984705fa6e1731c1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 18.97

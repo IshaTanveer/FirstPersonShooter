@@ -19,3 +19,5 @@ MonoBehaviour:
   IsAutomatic: 0
   CanZoom: 1
   ZoomFOV: 10
+  ZoomRotationSpeed: 0.75
+  MagzineSize: 5

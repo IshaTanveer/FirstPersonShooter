@@ -2,7 +2,8 @@ using UnityEngine;
 
 public class WeaponPickup : Pickup
 {
-    public override void OnPickup(ActiveWeapon activeWeapon, WeaponSO weaponSO)
+    [SerializeField] WeaponSO weaponSO;
+    public override void OnPickup(ActiveWeapon activeWeapon)
     {
         activeWeapon.SwitchWeapon(weaponSO);
     }

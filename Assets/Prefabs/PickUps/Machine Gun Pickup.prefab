@@ -12,10 +12,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Machine Gun Pickup
       objectReference: {fileID: 0}
+    - target: {fileID: 123933179730819475, guid: 11659bbe7cca8184984705fa6e1731c1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 453769807207266984, guid: 11659bbe7cca8184984705fa6e1731c1, type: 3}
       propertyPath: weaponSO
       value: 
       objectReference: {fileID: 11400000, guid: 176a3123ddc73e4498e068afc8d94881, type: 2}
+    - target: {fileID: 4455760509923449947, guid: 11659bbe7cca8184984705fa6e1731c1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7561382454257145818, guid: 11659bbe7cca8184984705fa6e1731c1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 21.84
@@ -121,6 +129,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e8c5e5625b7bd884899700bf60088473, type: 3}
       propertyPath: m_Name
       value: Heavy_machine_gun_01_Blue_Team
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8c5e5625b7bd884899700bf60088473, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

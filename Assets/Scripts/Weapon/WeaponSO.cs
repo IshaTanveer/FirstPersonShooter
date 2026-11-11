@@ -11,4 +11,5 @@ public class WeaponSO : ScriptableObject
     public bool CanZoom = false;
     public float ZoomFOV = 15f;
     public float ZoomRotationSpeed = 0.75f;
+    public int MagzineSize = 10;
 }

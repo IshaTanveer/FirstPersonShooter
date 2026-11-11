@@ -5,7 +5,6 @@ using System.Collections;
 public abstract class Pickup : MonoBehaviour
 {
     [SerializeField] float rotationSpeed = 90f;
-    [SerializeField] WeaponSO weaponSO;
     const string PLAYER_TAG = "Player";
     void Start()
     {
@@ -21,12 +20,12 @@ public abstract class Pickup : MonoBehaviour
         }
     }
 
-    public abstract void OnPickup(ActiveWeapon activeWeapon, WeaponSO weaponSO);
+    public abstract void OnPickup(ActiveWeapon activeWeapon);
     void OnTriggerEnter(Collider other){
         if (!other.CompareTag(PLAYER_TAG)) return;
         ActiveWeapon activeWeapon = other.GetComponentInChildren<ActiveWeapon>();
         if(activeWeapon == null) return;
-        OnPickup(activeWeapon, weaponSO);
+        OnPickup(activeWeapon);
         Destroy(gameObject);
     }
 }
